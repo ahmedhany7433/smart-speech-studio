@@ -1,5 +1,5 @@
-export const API_BASE = 'http://127.0.0.1:8010';
-export const AUDIO_BASE = 'http://127.0.0.1:8010';
+export const API_BASE = 'https://smart-speech-studio-production.up.railway.app';
+export const AUDIO_BASE = 'https://smart-speech-studio-production.up.railway.app';
 
 export async function getTests() {
     const r = await fetch(`${API_BASE}/tests`);
